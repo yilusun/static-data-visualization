@@ -1,0 +1,2641 @@
+[
+  {
+    "sub": [
+      {
+        "title": "Total, 15 years and over",
+        "data": [
+          {
+            "desc": "Personal care activities",
+            "hours": "9.64"
+          },
+          {
+            "desc": "Eating and drinking",
+            "hours": "1.18"
+          },
+          {
+            "desc": "Household activities",
+            "hours": "1.84"
+          },
+          {
+            "desc": "Purchasing goods and services",
+            "hours": "0.75"
+          },
+          {
+            "desc": "Caring for and helping household members",
+            "hours": "0.51"
+          },
+          {
+            "desc": "Caring for and helping non- household members",
+            "hours": "0.19"
+          },
+          {
+            "desc": "Working and work- related activities",
+            "hours": "3.53"
+          },
+          {
+            "desc": "Educational activities",
+            "hours": "0.46"
+          },
+          {
+            "desc": "Organizational, civic, and religious activities",
+            "hours": "0.33"
+          },
+          {
+            "desc": "Leisure and sports",
+            "hours": "5.21"
+          },
+          {
+            "desc": "Telephone calls, mail, and e-mail",
+            "hours": "0.16"
+          },
+          {
+            "desc": "Other activities, not elsewhere classified",
+            "hours": "0.19"
+          }
+        ],
+        "sub": [
+          {
+            "title": "15 to 19 years",
+            "data": [
+              {
+                "desc": "Personal care activities",
+                "hours": "10.70"
+              },
+              {
+                "desc": "Eating and drinking",
+                "hours": "1.13"
+              },
+              {
+                "desc": "Household activities",
+                "hours": "0.64"
+              },
+              {
+                "desc": "Purchasing goods and services",
+                "hours": "0.56"
+              },
+              {
+                "desc": "Caring for and helping household members",
+                "hours": "0.15"
+              },
+              {
+                "desc": "Caring for and helping non- household members",
+                "hours": "0.11"
+              },
+              {
+                "desc": "Working and work- related activities",
+                "hours": "1.01"
+              },
+              {
+                "desc": "Educational activities",
+                "hours": "3.20"
+              },
+              {
+                "desc": "Organizational, civic, and religious activities",
+                "hours": "0.23"
+              },
+              {
+                "desc": "Leisure and sports",
+                "hours": "5.81"
+              },
+              {
+                "desc": "Telephone calls, mail, and e-mail",
+                "hours": "0.26"
+              },
+              {
+                "desc": "Other activities, not elsewhere classified",
+                "hours": "0.22"
+              }
+            ]
+          },
+          {
+            "title": "20 to 24 years",
+            "data": [
+              {
+                "desc": "Personal care activities",
+                "hours": "10.11"
+              },
+              {
+                "desc": "Eating and drinking",
+                "hours": "1.06"
+              },
+              {
+                "desc": "Household activities",
+                "hours": "1.16"
+              },
+              {
+                "desc": "Purchasing goods and services",
+                "hours": "0.59"
+              },
+              {
+                "desc": "Caring for and helping household members",
+                "hours": "0.44"
+              },
+              {
+                "desc": "Caring for and helping non- household members",
+                "hours": "0.14"
+              },
+              {
+                "desc": "Working and work- related activities",
+                "hours": "3.98"
+              },
+              {
+                "desc": "Educational activities",
+                "hours": "1.33"
+              },
+              {
+                "desc": "Organizational, civic, and religious activities",
+                "hours": "0.18"
+              },
+              {
+                "desc": "Leisure and sports",
+                "hours": "4.72"
+              },
+              {
+                "desc": "Telephone calls, mail, and e-mail",
+                "hours": "0.11"
+              },
+              {
+                "desc": "Other activities, not elsewhere classified",
+                "hours": "0.17"
+              }
+            ]
+          },
+          {
+            "title": "25 to 34 years",
+            "data": [
+              {
+                "desc": "Personal care activities",
+                "hours": "9.64"
+              },
+              {
+                "desc": "Eating and drinking",
+                "hours": "1.15"
+              },
+              {
+                "desc": "Household activities",
+                "hours": "1.65"
+              },
+              {
+                "desc": "Purchasing goods and services",
+                "hours": "0.65"
+              },
+              {
+                "desc": "Caring for and helping household members",
+                "hours": "1.06"
+              },
+              {
+                "desc": "Caring for and helping non- household members",
+                "hours": "0.11"
+              },
+              {
+                "desc": "Working and work- related activities",
+                "hours": "4.71"
+              },
+              {
+                "desc": "Educational activities",
+                "hours": "0.29"
+              },
+              {
+                "desc": "Organizational, civic, and religious activities",
+                "hours": "0.20"
+              },
+              {
+                "desc": "Leisure and sports",
+                "hours": "4.25"
+              },
+              {
+                "desc": "Telephone calls, mail, and e-mail",
+                "hours": "0.10"
+              },
+              {
+                "desc": "Other activities, not elsewhere classified",
+                "hours": "0.18"
+              }
+            ]
+          },
+          {
+            "title": "35 to 44 years",
+            "data": [
+              {
+                "desc": "Personal care activities",
+                "hours": "9.42"
+              },
+              {
+                "desc": "Eating and drinking",
+                "hours": "1.14"
+              },
+              {
+                "desc": "Household activities",
+                "hours": "1.85"
+              },
+              {
+                "desc": "Purchasing goods and services",
+                "hours": "0.75"
+              },
+              {
+                "desc": "Caring for and helping household members",
+                "hours": "1.17"
+              },
+              {
+                "desc": "Caring for and helping non- household members",
+                "hours": "0.14"
+              },
+              {
+                "desc": "Working and work- related activities",
+                "hours": "4.90"
+              },
+              {
+                "desc": "Educational activities",
+                "hours": "0.09"
+              },
+              {
+                "desc": "Organizational, civic, and religious activities",
+                "hours": "0.27"
+              },
+              {
+                "desc": "Leisure and sports",
+                "hours": "4.00"
+              },
+              {
+                "desc": "Telephone calls, mail, and e-mail",
+                "hours": "0.09"
+              },
+              {
+                "desc": "Other activities, not elsewhere classified",
+                "hours": "0.19"
+              }
+            ]
+          },
+          {
+            "title": "45 to 54 years",
+            "data": [
+              {
+                "desc": "Personal care activities",
+                "hours": "9.16"
+              },
+              {
+                "desc": "Eating and drinking",
+                "hours": "1.15"
+              },
+              {
+                "desc": "Household activities",
+                "hours": "2.04"
+              },
+              {
+                "desc": "Purchasing goods and services",
+                "hours": "0.82"
+              },
+              {
+                "desc": "Caring for and helping household members",
+                "hours": "0.38"
+              },
+              {
+                "desc": "Caring for and helping non- household members",
+                "hours": "0.24"
+              },
+              {
+                "desc": "Working and work- related activities",
+                "hours": "4.79"
+              },
+              {
+                "desc": "Educational activities",
+                "hours": "0.08"
+              },
+              {
+                "desc": "Organizational, civic, and religious activities",
+                "hours": "0.36"
+              },
+              {
+                "desc": "Leisure and sports",
+                "hours": "4.70"
+              },
+              {
+                "desc": "Telephone calls, mail, and e-mail",
+                "hours": "0.12"
+              },
+              {
+                "desc": "Other activities, not elsewhere classified",
+                "hours": "0.17"
+              }
+            ]
+          },
+          {
+            "title": "55 to 64 years",
+            "data": [
+              {
+                "desc": "Personal care activities",
+                "hours": "9.37"
+              },
+              {
+                "desc": "Eating and drinking",
+                "hours": "1.19"
+              },
+              {
+                "desc": "Household activities",
+                "hours": "2.18"
+              },
+              {
+                "desc": "Purchasing goods and services",
+                "hours": "0.79"
+              },
+              {
+                "desc": "Caring for and helping household members",
+                "hours": "0.12"
+              },
+              {
+                "desc": "Caring for and helping non- household members",
+                "hours": "0.28"
+              },
+              {
+                "desc": "Working and work- related activities",
+                "hours": "3.67"
+              },
+              {
+                "desc": "Educational activities",
+                "hours": "0.05"
+              },
+              {
+                "desc": "Organizational, civic, and religious activities",
+                "hours": "0.40"
+              },
+              {
+                "desc": "Leisure and sports",
+                "hours": "5.57"
+              },
+              {
+                "desc": "Telephone calls, mail, and e-mail",
+                "hours": "0.18"
+              },
+              {
+                "desc": "Other activities, not elsewhere classified",
+                "hours": "0.20"
+              }
+            ]
+          },
+          {
+            "title": "65 to 74 years",
+            "data": [
+              {
+                "desc": "Personal care activities",
+                "hours": "9.63"
+              },
+              {
+                "desc": "Eating and drinking",
+                "hours": "1.35"
+              },
+              {
+                "desc": "Household activities",
+                "hours": "2.45"
+              },
+              {
+                "desc": "Purchasing goods and services",
+                "hours": "0.91"
+              },
+              {
+                "desc": "Caring for and helping household members",
+                "hours": "0.12"
+              },
+              {
+                "desc": "Caring for and helping non- household members",
+                "hours": "0.28"
+              },
+              {
+                "desc": "Working and work- related activities",
+                "hours": "1.37"
+              },
+              {
+                "desc": "Educational activities",
+                "hours": "0.02"
+              },
+              {
+                "desc": "Organizational, civic, and religious activities",
+                "hours": "0.58"
+              },
+              {
+                "desc": "Leisure and sports",
+                "hours": "6.84"
+              },
+              {
+                "desc": "Telephone calls, mail, and e-mail",
+                "hours": "0.26"
+              },
+              {
+                "desc": "Other activities, not elsewhere classified",
+                "hours": "0.20"
+              }
+            ]
+          },
+          {
+            "title": "75 years and over",
+            "data": [
+              {
+                "desc": "Personal care activities",
+                "hours": "10.10"
+              },
+              {
+                "desc": "Eating and drinking",
+                "hours": "1.35"
+              },
+              {
+                "desc": "Household activities",
+                "hours": "2.30"
+              },
+              {
+                "desc": "Purchasing goods and services",
+                "hours": "0.84"
+              },
+              {
+                "desc": "Caring for and helping household members",
+                "hours": "0.11"
+              },
+              {
+                "desc": "Caring for and helping non- household members",
+                "hours": "0.16"
+              },
+              {
+                "desc": "Working and work- related activities",
+                "hours": "0.23"
+              },
+              {
+                "desc": "Educational activities",
+                "hours": "( 2 ) -"
+              },
+              {
+                "desc": "Organizational, civic, and religious activities",
+                "hours": "0.50"
+              },
+              {
+                "desc": "Leisure and sports",
+                "hours": "7.82"
+              },
+              {
+                "desc": "Telephone calls, mail, and e-mail",
+                "hours": "0.30"
+              },
+              {
+                "desc": "Other activities, not elsewhere classified",
+                "hours": "0.29"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Men, 15 years and over",
+        "data": [
+          {
+            "desc": "Personal care activities",
+            "hours": "9.43"
+          },
+          {
+            "desc": "Eating and drinking",
+            "hours": "1.24"
+          },
+          {
+            "desc": "Household activities",
+            "hours": "1.43"
+          },
+          {
+            "desc": "Purchasing goods and services",
+            "hours": "0.60"
+          },
+          {
+            "desc": "Caring for and helping household members",
+            "hours": "0.31"
+          },
+          {
+            "desc": "Caring for and helping non- household members",
+            "hours": "0.16"
+          },
+          {
+            "desc": "Working and work- related activities",
+            "hours": "4.18"
+          },
+          {
+            "desc": "Educational activities",
+            "hours": "0.48"
+          },
+          {
+            "desc": "Organizational, civic, and religious activities",
+            "hours": "0.29"
+          },
+          {
+            "desc": "Leisure and sports",
+            "hours": "5.58"
+          },
+          {
+            "desc": "Telephone calls, mail, and e-mail",
+            "hours": "0.12"
+          },
+          {
+            "desc": "Other activities, not elsewhere classified",
+            "hours": "0.19"
+          }
+        ],
+        "sub": [
+          {
+            "title": "15 to 19 years",
+            "data": [
+              {
+                "desc": "Personal care activities",
+                "hours": "10.57"
+              },
+              {
+                "desc": "Eating and drinking",
+                "hours": "1.10"
+              },
+              {
+                "desc": "Household activities",
+                "hours": "0.48"
+              },
+              {
+                "desc": "Purchasing goods and services",
+                "hours": "0.43"
+              },
+              {
+                "desc": "Caring for and helping household members",
+                "hours": "0.07"
+              },
+              {
+                "desc": "Caring for and helping non- household members",
+                "hours": "0.08"
+              },
+              {
+                "desc": "Working and work- related activities",
+                "hours": "1.02"
+              },
+              {
+                "desc": "Educational activities",
+                "hours": "3.22"
+              },
+              {
+                "desc": "Organizational, civic, and religious activities",
+                "hours": "0.20"
+              },
+              {
+                "desc": "Leisure and sports",
+                "hours": "6.38"
+              },
+              {
+                "desc": "Telephone calls, mail, and e-mail",
+                "hours": "0.23"
+              },
+              {
+                "desc": "Other activities, not elsewhere classified",
+                "hours": "0.22"
+              }
+            ]
+          },
+          {
+            "title": "20 to 24 years",
+            "data": [
+              {
+                "desc": "Personal care activities",
+                "hours": "9.90"
+              },
+              {
+                "desc": "Eating and drinking",
+                "hours": "1.10"
+              },
+              {
+                "desc": "Household activities",
+                "hours": "1.07"
+              },
+              {
+                "desc": "Purchasing goods and services",
+                "hours": "0.48"
+              },
+              {
+                "desc": "Caring for and helping household members",
+                "hours": "0.08"
+              },
+              {
+                "desc": "Caring for and helping non- household members",
+                "hours": "0.21"
+              },
+              {
+                "desc": "Working and work- related activities",
+                "hours": "4.08"
+              },
+              {
+                "desc": "Educational activities",
+                "hours": "1.49"
+              },
+              {
+                "desc": "Organizational, civic, and religious activities",
+                "hours": "0.20"
+              },
+              {
+                "desc": "Leisure and sports",
+                "hours": "5.10"
+              },
+              {
+                "desc": "Telephone calls, mail, and e-mail",
+                "hours": "0.13"
+              },
+              {
+                "desc": "Other activities, not elsewhere classified",
+                "hours": "0.16"
+              }
+            ]
+          },
+          {
+            "title": "25 to 34 years",
+            "data": [
+              {
+                "desc": "Personal care activities",
+                "hours": "9.40"
+              },
+              {
+                "desc": "Eating and drinking",
+                "hours": "1.20"
+              },
+              {
+                "desc": "Household activities",
+                "hours": "1.26"
+              },
+              {
+                "desc": "Purchasing goods and services",
+                "hours": "0.48"
+              },
+              {
+                "desc": "Caring for and helping household members",
+                "hours": "0.53"
+              },
+              {
+                "desc": "Caring for and helping non- household members",
+                "hours": "0.10"
+              },
+              {
+                "desc": "Working and work- related activities",
+                "hours": "5.63"
+              },
+              {
+                "desc": "Educational activities",
+                "hours": "0.24"
+              },
+              {
+                "desc": "Organizational, civic, and religious activities",
+                "hours": "0.19"
+              },
+              {
+                "desc": "Leisure and sports",
+                "hours": "4.69"
+              },
+              {
+                "desc": "Telephone calls, mail, and e-mail",
+                "hours": "0.09"
+              },
+              {
+                "desc": "Other activities, not elsewhere classified",
+                "hours": "0.19"
+              }
+            ]
+          },
+          {
+            "title": "35 to 44 years",
+            "data": [
+              {
+                "desc": "Personal care activities",
+                "hours": "9.31"
+              },
+              {
+                "desc": "Eating and drinking",
+                "hours": "1.20"
+              },
+              {
+                "desc": "Household activities",
+                "hours": "1.29"
+              },
+              {
+                "desc": "Purchasing goods and services",
+                "hours": "0.58"
+              },
+              {
+                "desc": "Caring for and helping household members",
+                "hours": "0.76"
+              },
+              {
+                "desc": "Caring for and helping non- household members",
+                "hours": "0.12"
+              },
+              {
+                "desc": "Working and work- related activities",
+                "hours": "5.91"
+              },
+              {
+                "desc": "Educational activities",
+                "hours": "0.06"
+              },
+              {
+                "desc": "Organizational, civic, and religious activities",
+                "hours": "0.25"
+              },
+              {
+                "desc": "Leisure and sports",
+                "hours": "4.30"
+              },
+              {
+                "desc": "Telephone calls, mail, and e-mail",
+                "hours": "0.07"
+              },
+              {
+                "desc": "Other activities, not elsewhere classified",
+                "hours": "0.16"
+              }
+            ]
+          },
+          {
+            "title": "45 to 54 years",
+            "data": [
+              {
+                "desc": "Personal care activities",
+                "hours": "8.86"
+              },
+              {
+                "desc": "Eating and drinking",
+                "hours": "1.22"
+              },
+              {
+                "desc": "Household activities",
+                "hours": "1.48"
+              },
+              {
+                "desc": "Purchasing goods and services",
+                "hours": "0.66"
+              },
+              {
+                "desc": "Caring for and helping household members",
+                "hours": "0.32"
+              },
+              {
+                "desc": "Caring for and helping non- household members",
+                "hours": "0.15"
+              },
+              {
+                "desc": "Working and work- related activities",
+                "hours": "5.75"
+              },
+              {
+                "desc": "Educational activities",
+                "hours": "0.07"
+              },
+              {
+                "desc": "Organizational, civic, and religious activities",
+                "hours": "0.31"
+              },
+              {
+                "desc": "Leisure and sports",
+                "hours": "4.96"
+              },
+              {
+                "desc": "Telephone calls, mail, and e-mail",
+                "hours": "0.08"
+              },
+              {
+                "desc": "Other activities, not elsewhere classified",
+                "hours": "0.15"
+              }
+            ]
+          },
+          {
+            "title": "55 to 64 years",
+            "data": [
+              {
+                "desc": "Personal care activities",
+                "hours": "9.09"
+              },
+              {
+                "desc": "Eating and drinking",
+                "hours": "1.26"
+              },
+              {
+                "desc": "Household activities",
+                "hours": "1.82"
+              },
+              {
+                "desc": "Purchasing goods and services",
+                "hours": "0.67"
+              },
+              {
+                "desc": "Caring for and helping household members",
+                "hours": "0.12"
+              },
+              {
+                "desc": "Caring for and helping non- household members",
+                "hours": "0.25"
+              },
+              {
+                "desc": "Working and work- related activities",
+                "hours": "4.10"
+              },
+              {
+                "desc": "Educational activities",
+                "hours": "( 2 ) -"
+              },
+              {
+                "desc": "Organizational, civic, and religious activities",
+                "hours": "0.34"
+              },
+              {
+                "desc": "Leisure and sports",
+                "hours": "6.00"
+              },
+              {
+                "desc": "Telephone calls, mail, and e-mail",
+                "hours": "0.11"
+              },
+              {
+                "desc": "Other activities, not elsewhere classified",
+                "hours": "0.21"
+              }
+            ]
+          },
+          {
+            "title": "65 to 74 years",
+            "data": [
+              {
+                "desc": "Personal care activities",
+                "hours": "9.49"
+              },
+              {
+                "desc": "Eating and drinking",
+                "hours": "1.44"
+              },
+              {
+                "desc": "Household activities",
+                "hours": "2.01"
+              },
+              {
+                "desc": "Purchasing goods and services",
+                "hours": "0.73"
+              },
+              {
+                "desc": "Caring for and helping household members",
+                "hours": "0.09"
+              },
+              {
+                "desc": "Caring for and helping non- household members",
+                "hours": "0.23"
+              },
+              {
+                "desc": "Working and work- related activities",
+                "hours": "1.75"
+              },
+              {
+                "desc": "Educational activities",
+                "hours": "( 3 ) -"
+              },
+              {
+                "desc": "Organizational, civic, and religious activities",
+                "hours": "0.50"
+              },
+              {
+                "desc": "Leisure and sports",
+                "hours": "7.41"
+              },
+              {
+                "desc": "Telephone calls, mail, and e-mail",
+                "hours": "0.14"
+              },
+              {
+                "desc": "Other activities, not elsewhere classified",
+                "hours": "0.18"
+              }
+            ]
+          },
+          {
+            "title": "75 years and over",
+            "data": [
+              {
+                "desc": "Personal care activities",
+                "hours": "9.82"
+              },
+              {
+                "desc": "Eating and drinking",
+                "hours": "1.49"
+              },
+              {
+                "desc": "Household activities",
+                "hours": "1.91"
+              },
+              {
+                "desc": "Purchasing goods and services",
+                "hours": "0.79"
+              },
+              {
+                "desc": "Caring for and helping household members",
+                "hours": "0.09"
+              },
+              {
+                "desc": "Caring for and helping non- household members",
+                "hours": "0.16"
+              },
+              {
+                "desc": "Working and work- related activities",
+                "hours": "0.41"
+              },
+              {
+                "desc": "Educational activities",
+                "hours": "( 2 ) -"
+              },
+              {
+                "desc": "Organizational, civic, and religious activities",
+                "hours": "0.44"
+              },
+              {
+                "desc": "Leisure and sports",
+                "hours": "8.31"
+              },
+              {
+                "desc": "Telephone calls, mail, and e-mail",
+                "hours": "0.23"
+              },
+              {
+                "desc": "Other activities, not elsewhere classified",
+                "hours": "0.35"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Women, 15 years and over",
+        "data": [
+          {
+            "desc": "Personal care activities",
+            "hours": "9.85"
+          },
+          {
+            "desc": "Eating and drinking",
+            "hours": "1.13"
+          },
+          {
+            "desc": "Household activities",
+            "hours": "2.23"
+          },
+          {
+            "desc": "Purchasing goods and services",
+            "hours": "0.88"
+          },
+          {
+            "desc": "Caring for and helping household members",
+            "hours": "0.70"
+          },
+          {
+            "desc": "Caring for and helping non- household members",
+            "hours": "0.21"
+          },
+          {
+            "desc": "Working and work- related activities",
+            "hours": "2.92"
+          },
+          {
+            "desc": "Educational activities",
+            "hours": "0.45"
+          },
+          {
+            "desc": "Organizational, civic, and religious activities",
+            "hours": "0.37"
+          },
+          {
+            "desc": "Leisure and sports",
+            "hours": "4.86"
+          },
+          {
+            "desc": "Telephone calls, mail, and e-mail",
+            "hours": "0.20"
+          },
+          {
+            "desc": "Other activities, not elsewhere classified",
+            "hours": "0.20"
+          }
+        ],
+        "sub": [
+          {
+            "title": "15 to 19 years",
+            "data": [
+              {
+                "desc": "Personal care activities",
+                "hours": "10.84"
+              },
+              {
+                "desc": "Eating and drinking",
+                "hours": "1.15"
+              },
+              {
+                "desc": "Household activities",
+                "hours": "0.80"
+              },
+              {
+                "desc": "Purchasing goods and services",
+                "hours": "0.69"
+              },
+              {
+                "desc": "Caring for and helping household members",
+                "hours": "0.24"
+              },
+              {
+                "desc": "Caring for and helping non- household members",
+                "hours": "0.13"
+              },
+              {
+                "desc": "Working and work- related activities",
+                "hours": "0.99"
+              },
+              {
+                "desc": "Educational activities",
+                "hours": "3.18"
+              },
+              {
+                "desc": "Organizational, civic, and religious activities",
+                "hours": "0.25"
+              },
+              {
+                "desc": "Leisure and sports",
+                "hours": "5.22"
+              },
+              {
+                "desc": "Telephone calls, mail, and e-mail",
+                "hours": "0.29"
+              },
+              {
+                "desc": "Other activities, not elsewhere classified",
+                "hours": "0.22"
+              }
+            ]
+          },
+          {
+            "title": "20 to 24 years",
+            "data": [
+              {
+                "desc": "Personal care activities",
+                "hours": "10.33"
+              },
+              {
+                "desc": "Eating and drinking",
+                "hours": "1.01"
+              },
+              {
+                "desc": "Household activities",
+                "hours": "1.25"
+              },
+              {
+                "desc": "Purchasing goods and services",
+                "hours": "0.70"
+              },
+              {
+                "desc": "Caring for and helping household members",
+                "hours": "0.81"
+              },
+              {
+                "desc": "Caring for and helping non- household members",
+                "hours": "0.07"
+              },
+              {
+                "desc": "Working and work- related activities",
+                "hours": "3.89"
+              },
+              {
+                "desc": "Educational activities",
+                "hours": "1.17"
+              },
+              {
+                "desc": "Organizational, civic, and religious activities",
+                "hours": "0.16"
+              },
+              {
+                "desc": "Leisure and sports",
+                "hours": "4.33"
+              },
+              {
+                "desc": "Telephone calls, mail, and e-mail",
+                "hours": "0.09"
+              },
+              {
+                "desc": "Other activities, not elsewhere classified",
+                "hours": "0.18"
+              }
+            ]
+          },
+          {
+            "title": "25 to 34 years",
+            "data": [
+              {
+                "desc": "Personal care activities",
+                "hours": "9.88"
+              },
+              {
+                "desc": "Eating and drinking",
+                "hours": "1.11"
+              },
+              {
+                "desc": "Household activities",
+                "hours": "2.04"
+              },
+              {
+                "desc": "Purchasing goods and services",
+                "hours": "0.82"
+              },
+              {
+                "desc": "Caring for and helping household members",
+                "hours": "1.58"
+              },
+              {
+                "desc": "Caring for and helping non- household members",
+                "hours": "0.12"
+              },
+              {
+                "desc": "Working and work- related activities",
+                "hours": "3.81"
+              },
+              {
+                "desc": "Educational activities",
+                "hours": "0.34"
+              },
+              {
+                "desc": "Organizational, civic, and religious activities",
+                "hours": "0.21"
+              },
+              {
+                "desc": "Leisure and sports",
+                "hours": "3.82"
+              },
+              {
+                "desc": "Telephone calls, mail, and e-mail",
+                "hours": "0.11"
+              },
+              {
+                "desc": "Other activities, not elsewhere classified",
+                "hours": "0.17"
+              }
+            ]
+          },
+          {
+            "title": "35 to 44 years",
+            "data": [
+              {
+                "desc": "Personal care activities",
+                "hours": "9.53"
+              },
+              {
+                "desc": "Eating and drinking",
+                "hours": "1.08"
+              },
+              {
+                "desc": "Household activities",
+                "hours": "2.38"
+              },
+              {
+                "desc": "Purchasing goods and services",
+                "hours": "0.92"
+              },
+              {
+                "desc": "Caring for and helping household members",
+                "hours": "1.56"
+              },
+              {
+                "desc": "Caring for and helping non- household members",
+                "hours": "0.16"
+              },
+              {
+                "desc": "Working and work- related activities",
+                "hours": "3.92"
+              },
+              {
+                "desc": "Educational activities",
+                "hours": "0.12"
+              },
+              {
+                "desc": "Organizational, civic, and religious activities",
+                "hours": "0.29"
+              },
+              {
+                "desc": "Leisure and sports",
+                "hours": "3.71"
+              },
+              {
+                "desc": "Telephone calls, mail, and e-mail",
+                "hours": "0.12"
+              },
+              {
+                "desc": "Other activities, not elsewhere classified",
+                "hours": "0.22"
+              }
+            ]
+          },
+          {
+            "title": "45 to 54 years",
+            "data": [
+              {
+                "desc": "Personal care activities",
+                "hours": "9.45"
+              },
+              {
+                "desc": "Eating and drinking",
+                "hours": "1.09"
+              },
+              {
+                "desc": "Household activities",
+                "hours": "2.56"
+              },
+              {
+                "desc": "Purchasing goods and services",
+                "hours": "0.97"
+              },
+              {
+                "desc": "Caring for and helping household members",
+                "hours": "0.43"
+              },
+              {
+                "desc": "Caring for and helping non- household members",
+                "hours": "0.33"
+              },
+              {
+                "desc": "Working and work- related activities",
+                "hours": "3.87"
+              },
+              {
+                "desc": "Educational activities",
+                "hours": "0.10"
+              },
+              {
+                "desc": "Organizational, civic, and religious activities",
+                "hours": "0.40"
+              },
+              {
+                "desc": "Leisure and sports",
+                "hours": "4.45"
+              },
+              {
+                "desc": "Telephone calls, mail, and e-mail",
+                "hours": "0.16"
+              },
+              {
+                "desc": "Other activities, not elsewhere classified",
+                "hours": "0.18"
+              }
+            ]
+          },
+          {
+            "title": "55 to 64 years",
+            "data": [
+              {
+                "desc": "Personal care activities",
+                "hours": "9.62"
+              },
+              {
+                "desc": "Eating and drinking",
+                "hours": "1.13"
+              },
+              {
+                "desc": "Household activities",
+                "hours": "2.51"
+              },
+              {
+                "desc": "Purchasing goods and services",
+                "hours": "0.91"
+              },
+              {
+                "desc": "Caring for and helping household members",
+                "hours": "0.12"
+              },
+              {
+                "desc": "Caring for and helping non- household members",
+                "hours": "0.30"
+              },
+              {
+                "desc": "Working and work- related activities",
+                "hours": "3.27"
+              },
+              {
+                "desc": "Educational activities",
+                "hours": "0.07"
+              },
+              {
+                "desc": "Organizational, civic, and religious activities",
+                "hours": "0.47"
+              },
+              {
+                "desc": "Leisure and sports",
+                "hours": "5.17"
+              },
+              {
+                "desc": "Telephone calls, mail, and e-mail",
+                "hours": "0.24"
+              },
+              {
+                "desc": "Other activities, not elsewhere classified",
+                "hours": "0.19"
+              }
+            ]
+          },
+          {
+            "title": "65 to 74 years",
+            "data": [
+              {
+                "desc": "Personal care activities",
+                "hours": "9.75"
+              },
+              {
+                "desc": "Eating and drinking",
+                "hours": "1.28"
+              },
+              {
+                "desc": "Household activities",
+                "hours": "2.83"
+              },
+              {
+                "desc": "Purchasing goods and services",
+                "hours": "1.05"
+              },
+              {
+                "desc": "Caring for and helping household members",
+                "hours": "0.15"
+              },
+              {
+                "desc": "Caring for and helping non- household members",
+                "hours": "0.32"
+              },
+              {
+                "desc": "Working and work- related activities",
+                "hours": "1.04"
+              },
+              {
+                "desc": "Educational activities",
+                "hours": "( 2 ) -"
+              },
+              {
+                "desc": "Organizational, civic, and religious activities",
+                "hours": "0.64"
+              },
+              {
+                "desc": "Leisure and sports",
+                "hours": "6.35"
+              },
+              {
+                "desc": "Telephone calls, mail, and e-mail",
+                "hours": "0.36"
+              },
+              {
+                "desc": "Other activities, not elsewhere classified",
+                "hours": "0.21"
+              }
+            ]
+          },
+          {
+            "title": "75 years and over",
+            "data": [
+              {
+                "desc": "Personal care activities",
+                "hours": "10.30"
+              },
+              {
+                "desc": "Eating and drinking",
+                "hours": "1.25"
+              },
+              {
+                "desc": "Household activities",
+                "hours": "2.59"
+              },
+              {
+                "desc": "Purchasing goods and services",
+                "hours": "0.87"
+              },
+              {
+                "desc": "Caring for and helping household members",
+                "hours": "0.12"
+              },
+              {
+                "desc": "Caring for and helping non- household members",
+                "hours": "0.16"
+              },
+              {
+                "desc": "Working and work- related activities",
+                "hours": "0.11"
+              },
+              {
+                "desc": "Educational activities",
+                "hours": "( 3 ) -"
+              },
+              {
+                "desc": "Organizational, civic, and religious activities",
+                "hours": "0.54"
+              },
+              {
+                "desc": "Leisure and sports",
+                "hours": "7.46"
+              },
+              {
+                "desc": "Telephone calls, mail, and e-mail",
+                "hours": "0.34"
+              },
+              {
+                "desc": "Other activities, not elsewhere classified",
+                "hours": "0.25"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "name": "Age and sex"
+  },
+  {
+    "sub": [
+      {
+        "title": "White, 15 years and over",
+        "data": [
+          {
+            "desc": "Personal care activities",
+            "hours": "9.58"
+          },
+          {
+            "desc": "Eating and drinking",
+            "hours": "1.22"
+          },
+          {
+            "desc": "Household activities",
+            "hours": "1.94"
+          },
+          {
+            "desc": "Purchasing goods and services",
+            "hours": "0.76"
+          },
+          {
+            "desc": "Caring for and helping household members",
+            "hours": "0.51"
+          },
+          {
+            "desc": "Caring for and helping non- household members",
+            "hours": "0.19"
+          },
+          {
+            "desc": "Working and work- related activities",
+            "hours": "3.58"
+          },
+          {
+            "desc": "Educational activities",
+            "hours": "0.42"
+          },
+          {
+            "desc": "Organizational, civic, and religious activities",
+            "hours": "0.31"
+          },
+          {
+            "desc": "Leisure and sports",
+            "hours": "5.15"
+          },
+          {
+            "desc": "Telephone calls, mail, and e-mail",
+            "hours": "0.16"
+          },
+          {
+            "desc": "Other activities, not elsewhere classified",
+            "hours": "0.19"
+          }
+        ],
+        "sub": [
+          {
+            "title": "Men",
+            "data": [
+              {
+                "desc": "Personal care activities",
+                "hours": "9.38"
+              },
+              {
+                "desc": "Eating and drinking",
+                "hours": "1.28"
+              },
+              {
+                "desc": "Household activities",
+                "hours": "1.53"
+              },
+              {
+                "desc": "Purchasing goods and services",
+                "hours": "0.61"
+              },
+              {
+                "desc": "Caring for and helping household members",
+                "hours": "0.32"
+              },
+              {
+                "desc": "Caring for and helping non- household members",
+                "hours": "0.16"
+              },
+              {
+                "desc": "Working and work- related activities",
+                "hours": "4.30"
+              },
+              {
+                "desc": "Educational activities",
+                "hours": "0.41"
+              },
+              {
+                "desc": "Organizational, civic, and religious activities",
+                "hours": "0.28"
+              },
+              {
+                "desc": "Leisure and sports",
+                "hours": "5.43"
+              },
+              {
+                "desc": "Telephone calls, mail, and e-mail",
+                "hours": "0.11"
+              },
+              {
+                "desc": "Other activities, not elsewhere classified",
+                "hours": "0.19"
+              }
+            ]
+          },
+          {
+            "title": "Women",
+            "data": [
+              {
+                "desc": "Personal care activities",
+                "hours": "9.77"
+              },
+              {
+                "desc": "Eating and drinking",
+                "hours": "1.17"
+              },
+              {
+                "desc": "Household activities",
+                "hours": "2.33"
+              },
+              {
+                "desc": "Purchasing goods and services",
+                "hours": "0.89"
+              },
+              {
+                "desc": "Caring for and helping household members",
+                "hours": "0.70"
+              },
+              {
+                "desc": "Caring for and helping non- household members",
+                "hours": "0.22"
+              },
+              {
+                "desc": "Working and work- related activities",
+                "hours": "2.89"
+              },
+              {
+                "desc": "Educational activities",
+                "hours": "0.42"
+              },
+              {
+                "desc": "Organizational, civic, and religious activities",
+                "hours": "0.35"
+              },
+              {
+                "desc": "Leisure and sports",
+                "hours": "4.87"
+              },
+              {
+                "desc": "Telephone calls, mail, and e-mail",
+                "hours": "0.20"
+              },
+              {
+                "desc": "Other activities, not elsewhere classified",
+                "hours": "0.20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Black or African American, 15 years and over",
+        "data": [
+          {
+            "desc": "Personal care activities",
+            "hours": "10.03"
+          },
+          {
+            "desc": "Eating and drinking",
+            "hours": "0.84"
+          },
+          {
+            "desc": "Household activities",
+            "hours": "1.29"
+          },
+          {
+            "desc": "Purchasing goods and services",
+            "hours": "0.69"
+          },
+          {
+            "desc": "Caring for and helping household members",
+            "hours": "0.40"
+          },
+          {
+            "desc": "Caring for and helping non- household members",
+            "hours": "0.19"
+          },
+          {
+            "desc": "Working and work- related activities",
+            "hours": "3.13"
+          },
+          {
+            "desc": "Educational activities",
+            "hours": "0.47"
+          },
+          {
+            "desc": "Organizational, civic, and religious activities",
+            "hours": "0.52"
+          },
+          {
+            "desc": "Leisure and sports",
+            "hours": "6.01"
+          },
+          {
+            "desc": "Telephone calls, mail, and e-mail",
+            "hours": "0.20"
+          },
+          {
+            "desc": "Other activities, not elsewhere classified",
+            "hours": "0.22"
+          }
+        ],
+        "sub": [
+          {
+            "title": "Men",
+            "data": [
+              {
+                "desc": "Personal care activities",
+                "hours": "9.72"
+              },
+              {
+                "desc": "Eating and drinking",
+                "hours": "0.88"
+              },
+              {
+                "desc": "Household activities",
+                "hours": "0.90"
+              },
+              {
+                "desc": "Purchasing goods and services",
+                "hours": "0.54"
+              },
+              {
+                "desc": "Caring for and helping household members",
+                "hours": "0.16"
+              },
+              {
+                "desc": "Caring for and helping non- household members",
+                "hours": "0.18"
+              },
+              {
+                "desc": "Working and work- related activities",
+                "hours": "3.52"
+              },
+              {
+                "desc": "Educational activities",
+                "hours": "0.48"
+              },
+              {
+                "desc": "Organizational, civic, and religious activities",
+                "hours": "0.49"
+              },
+              {
+                "desc": "Leisure and sports",
+                "hours": "6.78"
+              },
+              {
+                "desc": "Telephone calls, mail, and e-mail",
+                "hours": "0.17"
+              },
+              {
+                "desc": "Other activities, not elsewhere classified",
+                "hours": "0.18"
+              }
+            ]
+          },
+          {
+            "title": "Women",
+            "data": [
+              {
+                "desc": "Personal care activities",
+                "hours": "10.29"
+              },
+              {
+                "desc": "Eating and drinking",
+                "hours": "0.80"
+              },
+              {
+                "desc": "Household activities",
+                "hours": "1.62"
+              },
+              {
+                "desc": "Purchasing goods and services",
+                "hours": "0.82"
+              },
+              {
+                "desc": "Caring for and helping household members",
+                "hours": "0.59"
+              },
+              {
+                "desc": "Caring for and helping non- household members",
+                "hours": "0.21"
+              },
+              {
+                "desc": "Working and work- related activities",
+                "hours": "2.81"
+              },
+              {
+                "desc": "Educational activities",
+                "hours": "0.46"
+              },
+              {
+                "desc": "Organizational, civic, and religious activities",
+                "hours": "0.55"
+              },
+              {
+                "desc": "Leisure and sports",
+                "hours": "5.38"
+              },
+              {
+                "desc": "Telephone calls, mail, and e-mail",
+                "hours": "0.23"
+              },
+              {
+                "desc": "Other activities, not elsewhere classified",
+                "hours": "0.25"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Asian, 15 years and over",
+        "data": [
+          {
+            "desc": "Personal care activities",
+            "hours": "9.76"
+          },
+          {
+            "desc": "Eating and drinking",
+            "hours": "1.46"
+          },
+          {
+            "desc": "Household activities",
+            "hours": "1.68"
+          },
+          {
+            "desc": "Purchasing goods and services",
+            "hours": "0.71"
+          },
+          {
+            "desc": "Caring for and helping household members",
+            "hours": "0.78"
+          },
+          {
+            "desc": "Caring for and helping non- household members",
+            "hours": "0.15"
+          },
+          {
+            "desc": "Working and work- related activities",
+            "hours": "3.50"
+          },
+          {
+            "desc": "Educational activities",
+            "hours": "1.04"
+          },
+          {
+            "desc": "Organizational, civic, and religious activities",
+            "hours": "0.23"
+          },
+          {
+            "desc": "Leisure and sports",
+            "hours": "4.38"
+          },
+          {
+            "desc": "Telephone calls, mail, and e-mail",
+            "hours": "0.14"
+          },
+          {
+            "desc": "Other activities, not elsewhere classified",
+            "hours": "0.17"
+          }
+        ],
+        "sub": [
+          {
+            "title": "Men",
+            "data": [
+              {
+                "desc": "Personal care activities",
+                "hours": "9.60"
+              },
+              {
+                "desc": "Eating and drinking",
+                "hours": "1.46"
+              },
+              {
+                "desc": "Household activities",
+                "hours": "1.07"
+              },
+              {
+                "desc": "Purchasing goods and services",
+                "hours": "0.58"
+              },
+              {
+                "desc": "Caring for and helping household members",
+                "hours": "0.44"
+              },
+              {
+                "desc": "Caring for and helping non- household members",
+                "hours": "0.18"
+              },
+              {
+                "desc": "Working and work- related activities",
+                "hours": "3.73"
+              },
+              {
+                "desc": "Educational activities",
+                "hours": "( 3 ) -"
+              },
+              {
+                "desc": "Organizational, civic, and religious activities",
+                "hours": "0.10"
+              },
+              {
+                "desc": "Leisure and sports",
+                "hours": "5.24"
+              },
+              {
+                "desc": "Telephone calls, mail, and e-mail",
+                "hours": "0.08"
+              },
+              {
+                "desc": "Other activities, not elsewhere classified",
+                "hours": "0.19"
+              }
+            ]
+          },
+          {
+            "title": "Women",
+            "data": [
+              {
+                "desc": "Personal care activities",
+                "hours": "9.91"
+              },
+              {
+                "desc": "Eating and drinking",
+                "hours": "1.46"
+              },
+              {
+                "desc": "Household activities",
+                "hours": "2.27"
+              },
+              {
+                "desc": "Purchasing goods and services",
+                "hours": "0.84"
+              },
+              {
+                "desc": "Caring for and helping household members",
+                "hours": "1.10"
+              },
+              {
+                "desc": "Caring for and helping non- household members",
+                "hours": "0.12"
+              },
+              {
+                "desc": "Working and work- related activities",
+                "hours": "3.29"
+              },
+              {
+                "desc": "Educational activities",
+                "hours": "0.74"
+              },
+              {
+                "desc": "Organizational, civic, and religious activities",
+                "hours": "0.35"
+              },
+              {
+                "desc": "Leisure and sports",
+                "hours": "3.56"
+              },
+              {
+                "desc": "Telephone calls, mail, and e-mail",
+                "hours": "0.20"
+              },
+              {
+                "desc": "Other activities, not elsewhere classified",
+                "hours": "0.15"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Hispanic or Latino ethnicity, 15 years and over",
+        "data": [
+          {
+            "desc": "Personal care activities",
+            "hours": "9.97"
+          },
+          {
+            "desc": "Eating and drinking",
+            "hours": "1.15"
+          },
+          {
+            "desc": "Household activities",
+            "hours": "1.83"
+          },
+          {
+            "desc": "Purchasing goods and services",
+            "hours": "0.74"
+          },
+          {
+            "desc": "Caring for and helping household members",
+            "hours": "0.67"
+          },
+          {
+            "desc": "Caring for and helping non- household members",
+            "hours": "0.16"
+          },
+          {
+            "desc": "Working and work- related activities",
+            "hours": "3.75"
+          },
+          {
+            "desc": "Educational activities",
+            "hours": "0.70"
+          },
+          {
+            "desc": "Organizational, civic, and religious activities",
+            "hours": "0.25"
+          },
+          {
+            "desc": "Leisure and sports",
+            "hours": "4.49"
+          },
+          {
+            "desc": "Telephone calls, mail, and e-mail",
+            "hours": "0.11"
+          },
+          {
+            "desc": "Other activities, not elsewhere classified",
+            "hours": "0.19"
+          }
+        ],
+        "sub": [
+          {
+            "title": "Men",
+            "data": [
+              {
+                "desc": "Personal care activities",
+                "hours": "9.93"
+              },
+              {
+                "desc": "Eating and drinking",
+                "hours": "1.14"
+              },
+              {
+                "desc": "Household activities",
+                "hours": "1.11"
+              },
+              {
+                "desc": "Purchasing goods and services",
+                "hours": "0.61"
+              },
+              {
+                "desc": "Caring for and helping household members",
+                "hours": "0.39"
+              },
+              {
+                "desc": "Caring for and helping non- household members",
+                "hours": "0.14"
+              },
+              {
+                "desc": "Working and work- related activities",
+                "hours": "4.62"
+              },
+              {
+                "desc": "Educational activities",
+                "hours": "0.66"
+              },
+              {
+                "desc": "Organizational, civic, and religious activities",
+                "hours": "0.22"
+              },
+              {
+                "desc": "Leisure and sports",
+                "hours": "4.90"
+              },
+              {
+                "desc": "Telephone calls, mail, and e-mail",
+                "hours": "0.08"
+              },
+              {
+                "desc": "Other activities, not elsewhere classified",
+                "hours": "0.20"
+              }
+            ]
+          },
+          {
+            "title": "Women",
+            "data": [
+              {
+                "desc": "Personal care activities",
+                "hours": "10.01"
+              },
+              {
+                "desc": "Eating and drinking",
+                "hours": "1.15"
+              },
+              {
+                "desc": "Household activities",
+                "hours": "2.54"
+              },
+              {
+                "desc": "Purchasing goods and services",
+                "hours": "0.86"
+              },
+              {
+                "desc": "Caring for and helping household members",
+                "hours": "0.95"
+              },
+              {
+                "desc": "Caring for and helping non- household members",
+                "hours": "0.17"
+              },
+              {
+                "desc": "Working and work- related activities",
+                "hours": "2.89"
+              },
+              {
+                "desc": "Educational activities",
+                "hours": "0.74"
+              },
+              {
+                "desc": "Organizational, civic, and religious activities",
+                "hours": "0.29"
+              },
+              {
+                "desc": "Leisure and sports",
+                "hours": "4.09"
+              },
+              {
+                "desc": "Telephone calls, mail, and e-mail",
+                "hours": "0.14"
+              },
+              {
+                "desc": "Other activities, not elsewhere classified",
+                "hours": "0.17"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "name": "Race and Hispanic or Latino ethnicity"
+  },
+  {
+    "sub": [
+      {
+        "title": "Married, spouse present",
+        "data": [
+          {
+            "desc": "Personal care activities",
+            "hours": "9.34"
+          },
+          {
+            "desc": "Eating and drinking",
+            "hours": "1.27"
+          },
+          {
+            "desc": "Household activities",
+            "hours": "2.16"
+          },
+          {
+            "desc": "Purchasing goods and services",
+            "hours": "0.79"
+          },
+          {
+            "desc": "Caring for and helping household members",
+            "hours": "0.72"
+          },
+          {
+            "desc": "Caring for and helping non- household members",
+            "hours": "0.20"
+          },
+          {
+            "desc": "Working and work- related activities",
+            "hours": "3.86"
+          },
+          {
+            "desc": "Educational activities",
+            "hours": "0.09"
+          },
+          {
+            "desc": "Organizational, civic, and religious activities",
+            "hours": "0.38"
+          },
+          {
+            "desc": "Leisure and sports",
+            "hours": "4.87"
+          },
+          {
+            "desc": "Telephone calls, mail, and e-mail",
+            "hours": "0.13"
+          },
+          {
+            "desc": "Other activities, not elsewhere classified",
+            "hours": "0.20"
+          }
+        ],
+        "sub": [
+          {
+            "title": "Men",
+            "data": [
+              {
+                "desc": "Personal care activities",
+                "hours": "9.11"
+              },
+              {
+                "desc": "Eating and drinking",
+                "hours": "1.34"
+              },
+              {
+                "desc": "Household activities",
+                "hours": "1.61"
+              },
+              {
+                "desc": "Purchasing goods and services",
+                "hours": "0.63"
+              },
+              {
+                "desc": "Caring for and helping household members",
+                "hours": "0.47"
+              },
+              {
+                "desc": "Caring for and helping non- household members",
+                "hours": "0.16"
+              },
+              {
+                "desc": "Working and work- related activities",
+                "hours": "4.74"
+              },
+              {
+                "desc": "Educational activities",
+                "hours": "0.07"
+              },
+              {
+                "desc": "Organizational, civic, and religious activities",
+                "hours": "0.34"
+              },
+              {
+                "desc": "Leisure and sports",
+                "hours": "5.24"
+              },
+              {
+                "desc": "Telephone calls, mail, and e-mail",
+                "hours": "0.08"
+              },
+              {
+                "desc": "Other activities, not elsewhere classified",
+                "hours": "0.20"
+              }
+            ]
+          },
+          {
+            "title": "Women",
+            "data": [
+              {
+                "desc": "Personal care activities",
+                "hours": "9.57"
+              },
+              {
+                "desc": "Eating and drinking",
+                "hours": "1.20"
+              },
+              {
+                "desc": "Household activities",
+                "hours": "2.72"
+              },
+              {
+                "desc": "Purchasing goods and services",
+                "hours": "0.94"
+              },
+              {
+                "desc": "Caring for and helping household members",
+                "hours": "0.97"
+              },
+              {
+                "desc": "Caring for and helping non- household members",
+                "hours": "0.23"
+              },
+              {
+                "desc": "Working and work- related activities",
+                "hours": "2.96"
+              },
+              {
+                "desc": "Educational activities",
+                "hours": "0.11"
+              },
+              {
+                "desc": "Organizational, civic, and religious activities",
+                "hours": "0.43"
+              },
+              {
+                "desc": "Leisure and sports",
+                "hours": "4.49"
+              },
+              {
+                "desc": "Telephone calls, mail, and e-mail",
+                "hours": "0.18"
+              },
+              {
+                "desc": "Other activities, not elsewhere classified",
+                "hours": "0.21"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Other marital statuses",
+        "data": [
+          {
+            "desc": "Personal care activities",
+            "hours": "9.97"
+          },
+          {
+            "desc": "Eating and drinking",
+            "hours": "1.09"
+          },
+          {
+            "desc": "Household activities",
+            "hours": "1.51"
+          },
+          {
+            "desc": "Purchasing goods and services",
+            "hours": "0.71"
+          },
+          {
+            "desc": "Caring for and helping household members",
+            "hours": "0.30"
+          },
+          {
+            "desc": "Caring for and helping non- household members",
+            "hours": "0.18"
+          },
+          {
+            "desc": "Working and work- related activities",
+            "hours": "3.18"
+          },
+          {
+            "desc": "Educational activities",
+            "hours": "0.85"
+          },
+          {
+            "desc": "Organizational, civic, and religious activities",
+            "hours": "0.28"
+          },
+          {
+            "desc": "Leisure and sports",
+            "hours": "5.56"
+          },
+          {
+            "desc": "Telephone calls, mail, and e-mail",
+            "hours": "0.20"
+          },
+          {
+            "desc": "Other activities, not elsewhere classified",
+            "hours": "0.19"
+          }
+        ],
+        "sub": [
+          {
+            "title": "Men",
+            "data": [
+              {
+                "desc": "Personal care activities",
+                "hours": "9.79"
+              },
+              {
+                "desc": "Eating and drinking",
+                "hours": "1.12"
+              },
+              {
+                "desc": "Household activities",
+                "hours": "1.22"
+              },
+              {
+                "desc": "Purchasing goods and services",
+                "hours": "0.56"
+              },
+              {
+                "desc": "Caring for and helping household members",
+                "hours": "0.13"
+              },
+              {
+                "desc": "Caring for and helping non- household members",
+                "hours": "0.16"
+              },
+              {
+                "desc": "Working and work- related activities",
+                "hours": "3.53"
+              },
+              {
+                "desc": "Educational activities",
+                "hours": "0.95"
+              },
+              {
+                "desc": "Organizational, civic, and religious activities",
+                "hours": "0.24"
+              },
+              {
+                "desc": "Leisure and sports",
+                "hours": "5.96"
+              },
+              {
+                "desc": "Telephone calls, mail, and e-mail",
+                "hours": "0.16"
+              },
+              {
+                "desc": "Other activities, not elsewhere classified",
+                "hours": "0.18"
+              }
+            ]
+          },
+          {
+            "title": "Women",
+            "data": [
+              {
+                "desc": "Personal care activities",
+                "hours": "10.11"
+              },
+              {
+                "desc": "Eating and drinking",
+                "hours": "1.07"
+              },
+              {
+                "desc": "Household activities",
+                "hours": "1.75"
+              },
+              {
+                "desc": "Purchasing goods and services",
+                "hours": "0.83"
+              },
+              {
+                "desc": "Caring for and helping household members",
+                "hours": "0.44"
+              },
+              {
+                "desc": "Caring for and helping non- household members",
+                "hours": "0.19"
+              },
+              {
+                "desc": "Working and work- related activities",
+                "hours": "2.88"
+              },
+              {
+                "desc": "Educational activities",
+                "hours": "0.78"
+              },
+              {
+                "desc": "Organizational, civic, and religious activities",
+                "hours": "0.32"
+              },
+              {
+                "desc": "Leisure and sports",
+                "hours": "5.22"
+              },
+              {
+                "desc": "Telephone calls, mail, and e-mail",
+                "hours": "0.23"
+              },
+              {
+                "desc": "Other activities, not elsewhere classified",
+                "hours": "0.19"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "name": "Marital status and sex"
+  },
+  {
+    "sub": [
+      {
+        "title": "Less than a high school diploma",
+        "data": [
+          {
+            "desc": "Personal care activities",
+            "hours": "10.07"
+          },
+          {
+            "desc": "Eating and drinking",
+            "hours": "1.10"
+          },
+          {
+            "desc": "Household activities",
+            "hours": "2.11"
+          },
+          {
+            "desc": "Purchasing goods and services",
+            "hours": "0.70"
+          },
+          {
+            "desc": "Caring for and helping household members",
+            "hours": "0.55"
+          },
+          {
+            "desc": "Caring for and helping non- household members",
+            "hours": "0.21"
+          },
+          {
+            "desc": "Working and work- related activities",
+            "hours": "2.76"
+          },
+          {
+            "desc": "Educational activities",
+            "hours": "( 2 ) -"
+          },
+          {
+            "desc": "Organizational, civic, and religious activities",
+            "hours": "0.36"
+          },
+          {
+            "desc": "Leisure and sports",
+            "hours": "5.84"
+          },
+          {
+            "desc": "Telephone calls, mail, and e-mail",
+            "hours": "0.09"
+          },
+          {
+            "desc": "Other activities, not elsewhere classified",
+            "hours": "0.19"
+          }
+        ],
+        "sub": []
+      },
+      {
+        "title": "High school diploma, no college",
+        "data": [
+          {
+            "desc": "Personal care activities",
+            "hours": "9.67"
+          },
+          {
+            "desc": "Eating and drinking",
+            "hours": "1.12"
+          },
+          {
+            "desc": "Household activities",
+            "hours": "2.15"
+          },
+          {
+            "desc": "Purchasing goods and services",
+            "hours": "0.73"
+          },
+          {
+            "desc": "Caring for and helping household members",
+            "hours": "0.42"
+          },
+          {
+            "desc": "Caring for and helping non- household members",
+            "hours": "0.23"
+          },
+          {
+            "desc": "Working and work- related activities",
+            "hours": "3.21"
+          },
+          {
+            "desc": "Educational activities",
+            "hours": "0.04"
+          },
+          {
+            "desc": "Organizational, civic, and religious activities",
+            "hours": "0.30"
+          },
+          {
+            "desc": "Leisure and sports",
+            "hours": "5.81"
+          },
+          {
+            "desc": "Telephone calls, mail, and e-mail",
+            "hours": "0.14"
+          },
+          {
+            "desc": "Other activities, not elsewhere classified",
+            "hours": "0.18"
+          }
+        ],
+        "sub": []
+      },
+      {
+        "title": "Some college or associate degree",
+        "data": [
+          {
+            "desc": "Personal care activities",
+            "hours": "9.44"
+          },
+          {
+            "desc": "Eating and drinking",
+            "hours": "1.15"
+          },
+          {
+            "desc": "Household activities",
+            "hours": "2.10"
+          },
+          {
+            "desc": "Purchasing goods and services",
+            "hours": "0.80"
+          },
+          {
+            "desc": "Caring for and helping household members",
+            "hours": "0.56"
+          },
+          {
+            "desc": "Caring for and helping non- household members",
+            "hours": "0.19"
+          },
+          {
+            "desc": "Working and work- related activities",
+            "hours": "3.72"
+          },
+          {
+            "desc": "Educational activities",
+            "hours": "0.18"
+          },
+          {
+            "desc": "Organizational, civic, and religious activities",
+            "hours": "0.33"
+          },
+          {
+            "desc": "Leisure and sports",
+            "hours": "5.14"
+          },
+          {
+            "desc": "Telephone calls, mail, and e-mail",
+            "hours": "0.19"
+          },
+          {
+            "desc": "Other activities, not elsewhere classified",
+            "hours": "0.21"
+          }
+        ],
+        "sub": []
+      },
+      {
+        "title": "Bachelor's degree and higher",
+        "data": [
+          {
+            "desc": "Personal care activities",
+            "hours": "9.20"
+          },
+          {
+            "desc": "Eating and drinking",
+            "hours": "1.34"
+          },
+          {
+            "desc": "Household activities",
+            "hours": "1.85"
+          },
+          {
+            "desc": "Purchasing goods and services",
+            "hours": "0.84"
+          },
+          {
+            "desc": "Caring for and helping household members",
+            "hours": "0.67"
+          },
+          {
+            "desc": "Caring for and helping non- household members",
+            "hours": "0.18"
+          },
+          {
+            "desc": "Working and work- related activities",
+            "hours": "4.46"
+          },
+          {
+            "desc": "Educational activities",
+            "hours": "0.13"
+          },
+          {
+            "desc": "Organizational, civic, and religious activities",
+            "hours": "0.43"
+          },
+          {
+            "desc": "Leisure and sports",
+            "hours": "4.53"
+          },
+          {
+            "desc": "Telephone calls, mail, and e-mail",
+            "hours": "0.17"
+          },
+          {
+            "desc": "Other activities, not elsewhere classified",
+            "hours": "0.20"
+          }
+        ],
+        "sub": []
+      }
+    ],
+    "name": "Educational attainment, 25 years and over"
+  }
+]

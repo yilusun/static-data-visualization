@@ -1,0 +1,398 @@
+<html>
+  <head>
+    <title>Project #1</title>
+    <script src="https://d3js.org/d3.v4.js"></script>
+    
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Alegreya|Alegreya+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya|Alegreya+Sans" rel\
+="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/default.min.css">
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+    <style>
+     svg {border: solid #ccc 0px;}
+     .bar {
+       fill: steelblue;
+     }
+     body {
+      font-family: 'Alegreya Sans', Calibri, sans-serif;
+     }
+    </style>
+  </head>
+  <h1 align="center">How do Americans spend their time?</h1>
+  <body>
+    <h2 >The First Visualization</h2>
+    <h4>The following picture shows how Americans spend their time in different fields. You can find whole data <a href='https://www.bls.gov/news.release/atus.t03.htm'>here.</a> There are 12 donut cahrts, each with a bar chart at the center. Each donut chart represents an activity, and the deep purple part denotes the average amount of hours Americans spend in this activity (regardless gender), with accurate number at the upper right corner. The bar chart shows the differnce of men and women spend their time in this activity. The horizontal direction represents the age scale from 15 to 75, the vertical direction represents the absoulte value of |(men's average time - women's average time)|, the length is in the same scale of donut chart. Pink bar charts represent the amount of time women spend more than men while blue represents the opposite.</h4>
+  
+    <svg id = "bar" width = "2000" height = "650"></svg>
+    <!-- datasource:https://www.bls.gov/news.release/atus.t03.htm -->
+    <script>
+      
+      var dataset = [
+        {label:'Personal care activities', count: 9.64},
+        {label:'Leisure and sports', count: 5.21},
+        {label:'Working and work-related activities', count: 3.53},
+        {label:'Household activities', count: 1.84},
+        {label:'Eating and drinking', count: 1.18},
+        {label:'Purchasing goods and services', count: 0.75},
+        {label:'Caring for&helping household members', count: 0.5},
+        {label:'Educational activities', count: 0.46},
+        {label:'Orga,civic&religious activities', count: 0.33},
+        {label:'Caring for&helping non-house holdmembers', count: 0.19},
+        {label:'Other activities', count: 0.19},
+        {label:'Telephone calls, mail,and e-mail', count: 0.16} 
+      ]
+
+      var radius = 80;
+      
+      var arc = d3.arc()
+        .innerRadius(60)
+        .outerRadius(radius);
+
+      var pie = d3.pie()
+        .value(function(d){return d.count})
+        .sort(null);
+
+      function newDataset(i){
+        var n = dataset[i].count;
+        return [dataset[i],
+            {label:'else', count: 24-n}];
+      }
+
+      function events(i){
+        return dataset[i].label;
+      }
+
+      function counts(i) {
+        return dataset[i].count;
+      }
+
+      function a(i){
+          if (i < 4){return 200 + i*250;}
+          else if (i<8){return 200 + (i-4)*250;}
+          else {return 200 + (i-8)*250;}
+        }
+      function b(i){
+        if (i < 4){return 100;}
+        else if (i<8){return 300;}
+        else {return 500;}
+      }
+
+      for (var i = 0; i<12; i++){
+        var chr = d3.select('#bar')
+          .append('svg')
+          .attr('width', 2000)
+          .attr('height', 2000)
+          .append('g')
+          .attr('transform', 'translate('+(a(i))+','+(b(i))+')');
+
+        var path = chr.selectAll('path')
+          .data(pie(newDataset(i)))
+          .enter()
+          .append('path')
+          .attr('d', arc)
+          .attr('fill', function(d){
+            //console.log(pie(newDataset(i)));
+            if(d.data.label != 'else') {
+              return '#4c409A';
+            }else {
+              return '#CDBBFE';
+            }
+          });
+          console.log(path);
+
+
+        var text = chr.append("text")
+          .text(events(i))
+          .attr("text-anchor", "middle")
+          .attr('transform', 'translate(0,100)')
+          .style("font-size", "10pt");
+
+        var text = chr.append("text")
+          .text(counts(i))
+          .attr("text-anchor", "middle")
+          .attr('transform', 'translate(70,-70)')
+          .style("font-size", "13pt")
+          .style("fill", '#4c409A');
+
+        console.log(newDataset(i));
+      }
+
+      var rawdata;
+      var bar = d3.select('#bar');
+      
+      var diffScale = d3.scaleLinear().domain([-2, 2]).range([70, 0]);
+      var ageScale = d3.scaleLinear().domain([1, 8]).range([10, 80]);
+      var colorScale = function (d) {
+        if (d>0){return "#3080B5";}
+        else { return "#ED5364"; }
+      }
+
+      function parseLine (line) {
+        return { 
+          PCA: Number(line["PCA"]),
+          EAD: Number(line["EAD"]),
+          HA: Number(line["HA"]),
+          PGAS: Number(line["PGAS"]),
+          CFAHHM: Number(line["CFAHHM"]),
+          CFAHNH: Number(line["CFAHNH"]),
+          WAWA: Number(line["WAWA"]),
+          EA: Number(line["EA"]),
+          OCARA: Number(line["OCARA"]),
+          LAS: Number(line["LAS"]),
+          TCMAE: Number(line["TCMAE"]),
+          OA: Number(line["OA"])
+        };
+      }
+
+      d3.csv("newdata.csv", parseLine, function(error,data){
+        console.log('hi');
+        rawdata = data;
+        console.log(rawdata);
+        showdata(rawdata);
+      })
+      
+      function showdata(rawdata){
+        rawdata.forEach(function (d,i) {
+          bar.append("line")
+          .attr('transform', 'translate(165,65)')
+          .attr("x1", ageScale(i)) 
+          .attr("y1", diffScale(0))
+          .attr("x2", ageScale(i)) 
+          .attr("y2", diffScale(d.PCA)) 
+          .style("stroke", colorScale(d.PCA))
+          .style("stroke-width", 10);
+          
+          bar.append("line")
+          .attr('transform', 'translate(415,65)')
+          .attr("x1", ageScale(i)) 
+          .attr("y1", diffScale(0))
+          .attr("x2", ageScale(i)) 
+          .attr("y2", diffScale(d.LAS)) 
+          .style("stroke", colorScale(d.LAS))
+          .style("stroke-width", 10);
+
+          bar.append("line")
+          .attr('transform', 'translate(665,65)')
+          .attr("x1", ageScale(i)) 
+          .attr("y1", diffScale(0))
+          .attr("x2", ageScale(i)) 
+          .attr("y2", diffScale(d.WAWA)) 
+          .style("stroke", colorScale(d.WAWA))
+          .style("stroke-width", 10);
+
+          bar.append("line")
+          .attr('transform', 'translate(915,65)')
+          .attr("x1", ageScale(i)) 
+          .attr("y1", diffScale(0))
+          .attr("x2", ageScale(i)) 
+          .attr("y2", diffScale(d.HA)) 
+          .style("stroke", colorScale(d.HA))
+          .style("stroke-width", 10);
+
+          bar.append("line")
+          .attr('transform', 'translate(165,265)')
+          .attr("x1", ageScale(i)) 
+          .attr("y1", diffScale(0))
+          .attr("x2", ageScale(i)) 
+          .attr("y2", diffScale(d.EAD)) 
+          .style("stroke", colorScale(d.EAD))
+          .style("stroke-width", 10);
+
+          bar.append("line")
+          .attr('transform', 'translate(415,265)')
+          .attr("x1", ageScale(i)) 
+          .attr("y1", diffScale(0))
+          .attr("x2", ageScale(i)) 
+          .attr("y2", diffScale(d.PGAS)) 
+          .style("stroke", colorScale(d.PGAS))
+          .style("stroke-width", 10);
+
+          bar.append("line")
+          .attr('transform', 'translate(665,265)')
+          .attr("x1", ageScale(i)) 
+          .attr("y1", diffScale(0))
+          .attr("x2", ageScale(i)) 
+          .attr("y2", diffScale(d.CFAHHM)) 
+          .style("stroke", colorScale(d.CFAHHM))
+          .style("stroke-width", 10);
+
+          bar.append("line")
+          .attr('transform', 'translate(915,265)')
+          .attr("x1", ageScale(i)) 
+          .attr("y1", diffScale(0))
+          .attr("x2", ageScale(i)) 
+          .attr("y2", diffScale(d.EA)) 
+          .style("stroke", colorScale(d.EA))
+          .style("stroke-width", 10);
+
+          bar.append("line")
+          .attr('transform', 'translate(165,465)')
+          .attr("x1", ageScale(i)) 
+          .attr("y1", diffScale(0))
+          .attr("x2", ageScale(i)) 
+          .attr("y2", diffScale(d.OCARA)) 
+          .style("stroke", colorScale(d.OCARA))
+          .style("stroke-width", 10);
+
+          bar.append("line")
+          .attr('transform', 'translate(415,465)')
+          .attr("x1", ageScale(i)) 
+          .attr("y1", diffScale(0))
+          .attr("x2", ageScale(i)) 
+          .attr("y2", diffScale(d.CFAHNH)) 
+          .style("stroke", colorScale(d.CFAHNH))
+          .style("stroke-width", 10);
+
+          bar.append("line")
+          .attr('transform', 'translate(665,465)')
+          .attr("x1", ageScale(i)) 
+          .attr("y1", diffScale(0))
+          .attr("x2", ageScale(i)) 
+          .attr("y2", diffScale(d.OA)) 
+          .style("stroke", colorScale(d.OA))
+          .style("stroke-width", 10);
+
+          bar.append("line")
+          .attr('transform', 'translate(915,465)')
+          .attr("x1", ageScale(i)) 
+          .attr("y1", diffScale(0))
+          .attr("x2", ageScale(i)) 
+          .attr("y2", diffScale(d.TCMAE)) 
+          .style("stroke", colorScale(d.TCMAE))
+          .style("stroke-width", 10);
+        });
+      }
+
+    </script>
+    <svg id = "p1description" width = "2000" height ="60">
+      <rect x = "450" y = "0" width="10" height="17.5" style="fill:#3080B5;stroke-width:0;stroke:rgb(0,0,0)" />
+      <rect x = "450" y = "20" width="10" height="17.5" style="fill:#ED5364;stroke-width:0;stroke:rgb(0,0,0)" />
+      <text x="470" y="17.5" fill="black" >means the time that men spend more than women</text>
+      <text x="470" y="37.5" fill="black">means the time that women spend more than women</text>
+      <text x="450" y="57.5" fill="black">the X axis in each bar chart is people's age range from 15 to 75 </text>
+    </svg>
+    <div></div>
+    <h4>From the above graph we can see that personal care activities take most time in Americans daily life, and women from 15 to 75 all spend more time than men on it. Men spend more time in leisure and sports than women for all age. It's obvious in the third donut chart that there is a sharp increment of men's time spending on working and related activities after age 25 and it keeps stable to age 45. Meanwhile, we can tell from the forth chart that women spend much more time on Household activities after age 25. These two graphs indicate that when people grow up, men tend to take more work and women take more household.   </h4>
+<!--     <svg width="800" height="600" id="svg1"></svg>
+    <div id="bubble-chart-container">
+    </div> -->
+    <h2 >The Second Visualization</h2>
+    <h4> The graph shows what activities people do in each of the 24 hours in a day. We believe it may be insteresting and useful for advertisers and social apps to tailor their advertisements based on people's schedules. You can find whole data <a href='https://www.bls.gov/tus/tables/a3_1115.htm'>here.</a></h4>
+    <!-- datasource:https://www.bls.gov/tus/tables/a3_1115.htm -->
+    <!-- refference:http://www.nytimes.com/interactive/2009/07/31/business/20080801-metrics-graphic.html -->
+    <div></div>
+    <div id="stacked-area-container"></div>
+    <script src="chart.js">
+    </script>
+    <div></div>
+
+    <h2 >The Third Visualization</h2>
+    <h4>The following visualization shows how Americans spent their time from 2011 to 2015, the differences between weekdays and weekends, as well as the differences between men and women. It's surprising that with the rise of high-tech products from 2011 and 2015, people don't change the amount of time spent in each activity a lot. You can find whole data <a href='https://www.bls.gov/tus/#tables'>here.</a></h4>
+    <h4>Does technoledge really speed up our lives?</h4>
+    <div></div>
+    <p id="p3"> 
+    <!-- datasource:https://www.bls.gov/tus/#tables -->
+    <script>
+    var svg=d3.select("#p3").append("svg")
+    .attr("width",900)
+    .attr("height",700);
+
+    // I referred to the class note: https://github.com/mimno/info3300-spr2017/blob/master/Notes/021017/index.html and https://github.com/mimno/info3300-spr2017/blob/master/Notes/021317/index.html
+
+    var rawData;
+
+    function parseLine (line) {
+        return{
+            weekend: Number(line["WeekendsAndHolidays"]),
+            weekday: Number(line["Weekdays"]),
+            Years: line["year"],
+            Activities:line["activity"],
+            activityRecode: Number(line["recode"]),
+            yearRecode: Number(line["recodeYear"]),
+            maleData: Number(line["Male"]),
+            femaleData: Number(line["Female"])
+        };
+    }
+
+    d3.csv("1115Data.csv",parseLine,function(data){
+    rawData=data;
+
+    var yearScale = d3.scaleTime().domain([new Date("2011"), new Date("2016")]).range([0,700]);
+    var linScale=d3.scaleLinear().domain([1,6]).range([0, 700]);
+    var yearAxis = d3.axisBottom(yearScale);
+
+    var activityScale=d3.scaleLinear().domain([0,11]).range([0, 600]);
+    var activityAxis=d3.axisLeft(activityScale);
+    activityAxis.tickFormat(function(d) {return rawData[d].Activities;});
+
+
+    var plot =svg.append("g").attr("transform", "translate(160,0)");
+    plot.append("g").call(yearAxis).attr("transform", "translate(60,0)");
+    plot.append("g").call(activityAxis).attr("transform", "translate(0,55)");
+
+    rawData.forEach(function(k){
+        plot.append("circle")
+            .attr("cx",linScale(k.yearRecode))
+            .attr("cy",activityScale(k.activityRecode))
+            .attr("r", (k.weekday)*3.3)
+            .style("fill", "#CDBBFE")
+            .style("opacity", "0.5")
+
+        plot.append("circle")
+            .attr("cx",linScale(k.yearRecode))
+            .attr("cy",activityScale(k.activityRecode))
+            .attr("r", (k.weekend)*3.3)
+            .style("fill", "none")
+            .style("stroke", "#4c409A")
+            .style("stroke-width", 2);
+
+        plot.append("rect")
+            .attr("x",linScale(k.yearRecode)+15)
+            .attr("y", activityScale(k.activityRecode))
+            .attr("width", (k.maleData)*4)
+            .attr("height", "10")
+            .style("fill", "#3080B5");
+
+        plot.append("rect")
+            .attr("x",linScale(k.yearRecode)+15)
+            .attr("y", activityScale(k.activityRecode)+10)
+            .attr("width", (k.femaleData)*4)
+            .attr("height", "10")
+            .style("fill", "#ED5364");
+
+
+    });
+
+      var plot=d3.select("#p3")
+          .selectAll("circle")
+          .attr("transform", "translate(60,0)");
+
+      var plot=d3.select("#p3")
+          .selectAll("rect")
+          .attr("transform", "translate(85,-10)");
+
+
+    });
+    </script>
+    </p>
+    <svg id = "p1description" width = "2000" height ="60">
+      <circle cx = "160" cy = "12" r = 8 style = "fill:#CDBBFE"/>
+      <circle cx = "160" cy = "32" r = 6 style = "fill:none;stroke-width:2;stroke:#4c409A"/>
+      <rect x = "450" y = "8" width="20" height="10" style="fill:#3080B5;stroke-width:0;stroke:rgb(0,0,0)" />
+      <rect x = "450" y = "28" width="20" height="10" style="fill:#ED5364;stroke-width:0;stroke:rgb(0,0,0)" />
+      <text x="490" y="18" fill="black" >means the time that men spend</text>
+      <text x="490" y="38" fill="black">means the time that women spend</text>
+      <text x="180" y="18" fill="black" >means the time-spending in weekdays</text>
+      <text x="180" y="38" fill="black">means the time-spending in weekends</text>
+   
+    </svg>
+    <h2 >The Forth Visualization: An Interesting Comparion</h2>
+    <p> The visualization shows the how average American college students spend their time and how three team members who create this project spend our time on average. Can you believe it?!</p>
+    <div id="radar-chart-container"></div>
+    
+    <script src="RadarChart.js"></script>
+
+  </body>
+</html>
